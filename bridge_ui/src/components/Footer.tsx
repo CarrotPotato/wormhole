@@ -127,11 +127,6 @@ const useStyles = makeStyles((theme) => ({
     height: 68,
     marginTop: -24,
   },
-  copyWrapper: {
-    flexBasis: "100%",
-    paddingTop: theme.spacing(0),
-    textAlign: "center",
-  },
 }));
 
 export default function Footer() {
@@ -246,11 +241,6 @@ export default function Footer() {
             >
               <img src={Twitter} alt="Twitter" />
             </IconButton>
-          </div>
-          <div className={classes.copyWrapper}>
-            <Typography variant="body2" gutterBottom>
-              2022 &copy; Wormhole. All Rights Reserved.
-            </Typography>
           </div>
           <Typography variant="body2">
             This Interface is an open source software portal to Wormhole, a
